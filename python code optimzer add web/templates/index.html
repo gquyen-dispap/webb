@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNASKY OPTIMIZER | Sức Mạnh Tối Thượng</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+       <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="content">
+    </div>
+</body>
+
+    <nav>
+        <div class="logo">Lunasky <span> Optimizer <span>PC
+
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>TỐI ƯU PC ĐẾN <span class="rose-text">CẢNH GIỚI VÔ THƯỢNG</span></h1>
+            <p>Giải phóng toàn bộ hiệu năng máy tính của bạn như sức mạnh của Super Saiyan Rose.</p>
+            <div class="cta-buttons">
+                <a href="https://discord.gg/fHTM9TNGKU" class="main-btn">Liên hệ để mua  </a>
+            </div>
+        </div>
+        <div class="aura-effect"></div>
+    </header>
+
+    <section class="features">
+        <div class="card" data-aos="flip-left">
+            <div class="icon">⚡</div>
+            <h3>Tốc độ ánh sáng</h3>
+            <p>Giảm giật lag trong 1 nốt nhạc.</p>
+        </div>
+        <div class="card" data-aos="flip-up" data-aos-delay="200">
+            <div class="icon">🛡️</div>
+            <h3>Bảo mật tuyệt đối</h3>
+            <p>Dọn dẹp mã độc và file rác.</p>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-delay="400">
+            <div class="icon">🔥</div>
+            <h3>FPS Cực đỉnh</h3>
+            <p>Tăng tối đa khung hình khi chơi game.</p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>
